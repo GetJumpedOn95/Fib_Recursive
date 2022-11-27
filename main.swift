@@ -8,11 +8,5 @@ func fibonacci(n:Int) -> Int {
     }
 }
 
-func main(n:Int) {
-    print("Calculating fibonacci(\(n))...")
-    let fibResult = fibonacci(n:n)
-    print("The final result is: \(fibResult).")
-}
-
 //calculate fib of 9
-main(n:9)
+print(fibonacci(n:9))
